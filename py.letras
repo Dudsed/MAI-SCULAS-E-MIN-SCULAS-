@@ -1,0 +1,9 @@
+artigo = str(input("Digite artigo"))
+substantivo = str(input("Digite substantivo"))
+verbo = str(input("Digite verbo"))
+preposição =str(input("Digite preposição"))
+pronome = str(input("Digite pronome"))
+adverbio = str(input("Digite adverbio"))
+frase = artigo + " " + substantivo + " " + verbo + " " + preposição + " " + pronome + " " + adverbio
+maiuscula = frase.upper()
+print(maiuscula)
